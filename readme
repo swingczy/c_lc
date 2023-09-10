@@ -1,1 +1,4 @@
 personal leetcode project in C language.
+
+It's impossible to new a cmake project for every Solution, so, I put them into  
+`solutions`, and add `src/` and `test/` to `.gitignore`
