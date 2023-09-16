@@ -1,6 +1,7 @@
 /**
  * 198 medium, house-robber
  * dp
+ * @see lc213.c
 */
 
 int rob(int* nums, int numsSize){
