@@ -4,11 +4,11 @@ int main() {
     printf("TEST RUNNING.\n");
     //////////////////////////
 
+    char *s = timeToStr(0, 0);
+    printf("s:%s\n", s); // "0:00"
 
-    int a[] = {1,2,3,1};
-    int b = rob(a, 4);
-    assert(b == 4);
-
+    int a = countOneBits(5);
+    assert(a == 2);
 
     /////////////////////////////
     printf("TEST SUCCEEDED.\n");

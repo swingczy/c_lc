@@ -3,14 +3,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <stdint.h>
 #include <string.h>
 #include <ctype.h>
-#include <stdint.h>
 #include <math.h>
 #include <assert.h>
 
 #include "uthash.h"
 
-int rob(int* nums, int numsSize);
+char* timeToStr(int h, int m);
+int countOneBits(int x);
 
 #endif
