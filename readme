@@ -1,4 +1,23 @@
 personal leetcode project in C language.
 
-It's impossible to new a cmake project for every Solution, so, I put them into  
-`solutions`, and add `src/` and `test/` to `.gitignore`
+It's impossible to new a cmake project for every Solution, so, I put them together into the folder `solutions`.
+
+# Environment
+
+Debian11 WSL
+lastest cmake, gcc
+
+VSCode
+extensions:
+ms-vscode-remote.remote-wsl
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+
+## Build
+
+```bash
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
