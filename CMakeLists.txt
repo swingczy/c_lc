@@ -13,6 +13,8 @@ if (${BUILD_TEST})
     include(CTest)
 endif()
 
+set(CMAKE_BUILD_TYPE Debug)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
