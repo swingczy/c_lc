@@ -1,19 +1,20 @@
-personal leetcode project in C language.
+Personal leetcode project in C language.
 
-It's impossible to new a cmake project for every Solution, so, I put them together into the folder `solutions`.
+It's impossible to create a new cmake project when there's a new Solution, so I gathered them into the folder `solutions`,  
+one file for one leetcode problem.
 
 # Environment
 
-Debian11 WSL
-lastest cmake, gcc, gdb
+Debian11 WSL  
+VSCode  
+lastest cmake, gcc, gdb via apt  
 
-VSCode
-extensions:
-ms-vscode-remote.remote-wsl
-ms-vscode.cmake-tools
-ms-vscode.cpptools
+VSCode extensions:
+* ms-vscode-remote.remote-wsl
+* ms-vscode.cmake-tools
+* ms-vscode.cpptools
 
-## Build
+# Build
 
 ```bash
 $ mkdir build
