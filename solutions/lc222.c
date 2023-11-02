@@ -1,3 +1,10 @@
+/**
+ * 222 count-complete-tree-nodes
+ * easy
+ * 
+ * complete binary tree, binary-search
+*/
+
 // empty tree's height is 0
 int getTreeHeight(struct TreeNode *root);
 
