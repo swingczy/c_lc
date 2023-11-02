@@ -5,7 +5,7 @@ It's impossible to new a cmake project for every Solution, so, I put them togeth
 # Environment
 
 Debian11 WSL
-lastest cmake, gcc
+lastest cmake, gcc, gdb
 
 VSCode
 extensions:
