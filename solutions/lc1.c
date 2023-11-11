@@ -1,3 +1,10 @@
+/**
+ * 1 two-sum
+ * easy
+ * 
+ * hash
+*/
+
 typedef struct {
     int num;
     int idx;
